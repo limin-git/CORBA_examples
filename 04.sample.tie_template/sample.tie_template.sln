@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo_corba_lib", "echo_corba_lib\echo_corba_lib.vcproj", "{A290678D-AED0-48E4-B949-0949E904EE6D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo_idl", "echo_idl\echo_idl.vcproj", "{2E452C6F-A072-4AF5-B5AB-9045D399AB44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo_name_service_client", "echo_name_service_client\echo_name_service_client.vcproj", "{85915DB6-93C1-415E-95AF-7CEE877442FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A290678D-AED0-48E4-B949-0949E904EE6D} = {A290678D-AED0-48E4-B949-0949E904EE6D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo_tie_template_server", "echo_tie_template_server\echo_tie_template_server.vcproj", "{7F533ABF-CD36-4427-B428-0FEBBED220D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A290678D-AED0-48E4-B949-0949E904EE6D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A290678D-AED0-48E4-B949-0949E904EE6D}.Debug|Win32.Build.0 = Debug|Win32
+		{A290678D-AED0-48E4-B949-0949E904EE6D}.Release|Win32.ActiveCfg = Release|Win32
+		{A290678D-AED0-48E4-B949-0949E904EE6D}.Release|Win32.Build.0 = Release|Win32
+		{2E452C6F-A072-4AF5-B5AB-9045D399AB44}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E452C6F-A072-4AF5-B5AB-9045D399AB44}.Debug|Win32.Build.0 = Debug|Win32
+		{2E452C6F-A072-4AF5-B5AB-9045D399AB44}.Release|Win32.ActiveCfg = Release|Win32
+		{2E452C6F-A072-4AF5-B5AB-9045D399AB44}.Release|Win32.Build.0 = Release|Win32
+		{85915DB6-93C1-415E-95AF-7CEE877442FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85915DB6-93C1-415E-95AF-7CEE877442FA}.Debug|Win32.Build.0 = Debug|Win32
+		{85915DB6-93C1-415E-95AF-7CEE877442FA}.Release|Win32.ActiveCfg = Release|Win32
+		{85915DB6-93C1-415E-95AF-7CEE877442FA}.Release|Win32.Build.0 = Release|Win32
+		{7F533ABF-CD36-4427-B428-0FEBBED220D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F533ABF-CD36-4427-B428-0FEBBED220D6}.Debug|Win32.Build.0 = Debug|Win32
+		{7F533ABF-CD36-4427-B428-0FEBBED220D6}.Release|Win32.ActiveCfg = Release|Win32
+		{7F533ABF-CD36-4427-B428-0FEBBED220D6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

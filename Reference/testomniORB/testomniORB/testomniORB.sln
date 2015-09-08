@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testomniORB", "testomniORB\testomniORB.vcproj", "{678328EA-90B7-428F-8DF3-AA1AF4E7B039}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo_client", "echo_client\echo_client.vcproj", "{4E2A1369-849D-4819-8749-7ED507E3CD29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echo_servant", "echo_servant\echo_servant.vcproj", "{A26FA725-8592-4406-9F5D-0302F92FAA91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testORBname_client", "testORBname_client\testORBname_client.vcproj", "{69F08A2E-AB0B-45C2-8F50-F8AABAAC1924}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testORBname_servant", "testORBname_servant\testORBname_servant.vcproj", "{B5F2A2F7-4DA6-4318-9214-E1C213A8FE75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testORBnamebyTemplates", "testORBnamebyTemplates\testORBnamebyTemplates.vcproj", "{759A44FC-FD90-4CC0-91B8-88522A6BB003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{678328EA-90B7-428F-8DF3-AA1AF4E7B039}.Debug|Win32.ActiveCfg = Debug|Win32
+		{678328EA-90B7-428F-8DF3-AA1AF4E7B039}.Debug|Win32.Build.0 = Debug|Win32
+		{678328EA-90B7-428F-8DF3-AA1AF4E7B039}.Release|Win32.ActiveCfg = Release|Win32
+		{678328EA-90B7-428F-8DF3-AA1AF4E7B039}.Release|Win32.Build.0 = Release|Win32
+		{4E2A1369-849D-4819-8749-7ED507E3CD29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E2A1369-849D-4819-8749-7ED507E3CD29}.Debug|Win32.Build.0 = Debug|Win32
+		{4E2A1369-849D-4819-8749-7ED507E3CD29}.Release|Win32.ActiveCfg = Release|Win32
+		{4E2A1369-849D-4819-8749-7ED507E3CD29}.Release|Win32.Build.0 = Release|Win32
+		{A26FA725-8592-4406-9F5D-0302F92FAA91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A26FA725-8592-4406-9F5D-0302F92FAA91}.Debug|Win32.Build.0 = Debug|Win32
+		{A26FA725-8592-4406-9F5D-0302F92FAA91}.Release|Win32.ActiveCfg = Release|Win32
+		{A26FA725-8592-4406-9F5D-0302F92FAA91}.Release|Win32.Build.0 = Release|Win32
+		{69F08A2E-AB0B-45C2-8F50-F8AABAAC1924}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69F08A2E-AB0B-45C2-8F50-F8AABAAC1924}.Debug|Win32.Build.0 = Debug|Win32
+		{69F08A2E-AB0B-45C2-8F50-F8AABAAC1924}.Release|Win32.ActiveCfg = Release|Win32
+		{69F08A2E-AB0B-45C2-8F50-F8AABAAC1924}.Release|Win32.Build.0 = Release|Win32
+		{B5F2A2F7-4DA6-4318-9214-E1C213A8FE75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5F2A2F7-4DA6-4318-9214-E1C213A8FE75}.Debug|Win32.Build.0 = Debug|Win32
+		{B5F2A2F7-4DA6-4318-9214-E1C213A8FE75}.Release|Win32.ActiveCfg = Release|Win32
+		{B5F2A2F7-4DA6-4318-9214-E1C213A8FE75}.Release|Win32.Build.0 = Release|Win32
+		{759A44FC-FD90-4CC0-91B8-88522A6BB003}.Debug|Win32.ActiveCfg = Debug|Win32
+		{759A44FC-FD90-4CC0-91B8-88522A6BB003}.Debug|Win32.Build.0 = Debug|Win32
+		{759A44FC-FD90-4CC0-91B8-88522A6BB003}.Release|Win32.ActiveCfg = Release|Win32
+		{759A44FC-FD90-4CC0-91B8-88522A6BB003}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
